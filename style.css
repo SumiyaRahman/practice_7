@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding-top: 76px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background-color: rgb(226, 131, 221);
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 5px rgb(65, 65, 65);
+    border-radius: 10px;
+}
+.parent{
+    width: 290px;
+    height: 360px;
+    background-color: rgb(65, 65, 65);
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+}
+.login{
+    color: orchid;
+    font-weight: bold;
+}
+.signup{
+    color: whitesmoke;
+}
+.login,.signup{
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.login{
+    margin-right: 55px;
+    margin-left: 65px;
+}
+#uname,#pass{
+    padding: 12px;
+    width: 220px;
+    border: none;
+    border-radius: 1px;
+    margin-left: 23px;
+    font-size: 11px;
+    color: rgb(65, 65, 65);
+}
+#uname{
+    margin-bottom: 15px;
+}
+#pass{
+    margin-bottom: 23px;
+}
+button{
+    margin-top: 35px;
+    margin-left: 25px;
+    width: 235px;
+    padding: 8.5px;
+    background-color: orchid;
+    color: whitesmoke;
+    font-weight: 700;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+}
+.fpass,.rme{
+    color: whitesmoke;
+    font-size: 13px;
+}
+.fpass{
+    text-align: center;
+    margin-top: 7px;
+}
+#cbox{
+    margin-left: 25px;
+}
